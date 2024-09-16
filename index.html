@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+@font-face {
+
+font-family: 'Inter'; /* Choose a name for your font */
+
+src: url('/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype'); /* Path to your font file */
+
+
+}
+
+
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: inter;
+    }
+    html{
+      height: 100%
+    }
+    body{
+      height: 100%;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+
+
+    }
+    .container{
+     height: 430px;
+     width: 250px;
+     background-color: #1b1b1b;
+     border-radius: 5px;
+     
+     text-align: center;
+
+    }
+    .container img{
+      width: 60px;
+      border-radius: 50%;
+      margin: 25px 0 10px;
+    }
+    h3{
+      color: white;
+      margin: 0 0 8px;
+
+    }
+    .locate{
+      color: greenyellow;
+    }
+    .occupy{
+      color: white;
+      padding: 20px 0 15px;
+      font-weight: 200;
+      font-size: 10px;
+    }
+    li button{
+     width: 85%;
+     margin-bottom: 10px;
+     height: 32px;
+     background-color: #333333;
+     border-radius: 10px;
+     border: none;
+     color: white;
+     font-size: 10px;
+     font-weight: 600;
+     
+    }
+    button:hover{
+      background-color: yellow;
+      color: black;
+      cursor: pointer;
+    }
+    
+   
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="assets/images/avatar-jessica.jpeg" alt="beautiful woman ">
+
+    <h3>Jessica Randall</h3>
+
+    <h6 class="locate">London, United kingdom</h6>
+    <p class="occupy">"Front-end developer and avid reader"</p>
+    <ul>
+      <li><button>GitHub</button></li>
+      <li><button>Frontend Mentor</button></li>
+      <li><button>linkedIn</button></li>
+      <li><button>Twitter</button></li>
+      <li><button>Instagram</button></li>
+    </ul>
+    
+
+  </div>
+
+
+  
+ 
+  </div>
+</body>
+</html>
